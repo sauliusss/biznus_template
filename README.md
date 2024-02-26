@@ -17,6 +17,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 Site published at: 
 
 Design: [https://biznus-template.webflow.io/]
+[https://webflow.com/templates/html/biznus-retail-website-template]
 
 ## 🎯 Project features/goals
 
