@@ -3,3 +3,11 @@
 
 .btn:hover {
 }
+
+.btn-nav {
+  border: 1px solid #000;
+  border-radius: 50px;
+  padding: 12px 20px;
+  background-color: var(--color-red);
+  color: #fff;
+}

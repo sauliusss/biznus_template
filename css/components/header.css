@@ -1,0 +1,54 @@
+.main-header {
+  margin-top: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.main-header .row {
+  margin-top: 0;
+}
+
+.main-header .row .col-12 {
+  margin: 0;
+}
+
+.nav-covid {
+  display: flex;
+  padding: 17px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1em;
+  background-color: var(--color-black);
+}
+
+h2.nav-p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.logo-main-nav {
+  display: flex;
+  height: 70px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--color-red);
+}
+
+.main-nav {
+  display: flex;
+  gap: 2em;
+}
+
+.main-nav a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-nav a:hover {
+  border-radius: 5px;
+  background-color: var(--color-black);
+}
