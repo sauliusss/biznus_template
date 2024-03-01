@@ -13,3 +13,21 @@ body * {
 body {
   font-family: "Sen", sans-serif;
 }
+
+main {
+  display: inline-block;
+  width: 100%;
+}
+
+main img {
+  height: 40em;
+  max-width: 90em;
+}
+
+main .bg-main > .row {
+  margin: 0;
+}
+
+main .bg-main > .row .col-12 {
+  margin: 0;
+}
