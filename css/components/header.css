@@ -39,10 +39,11 @@ h2.nav-p {
 
 .main-nav {
   display: flex;
-  gap: 2em;
+  gap: 2.5em;
 }
 
 .main-nav a {
+  padding: 8px 10px;
   text-align: center;
   text-decoration: none;
   color: #fff;
@@ -51,4 +52,14 @@ h2.nav-p {
 .main-nav a:hover {
   border-radius: 5px;
   background-color: var(--color-black);
+}
+
+.main-nav a:last-child {
+  border-radius: 8px 10px;
+  background-color: var(--color-black);
+}
+
+.fa-solid {
+  background-color: var(--color-black);
+  color: #fff;
 }
