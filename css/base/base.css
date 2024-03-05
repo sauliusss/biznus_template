@@ -19,9 +19,8 @@ main {
   width: 100%;
 }
 
-main img {
-  height: 40em;
-  max-width: 90em;
+.hero-img img {
+  width: 100%;
 }
 
 main .bg-main > .row {
