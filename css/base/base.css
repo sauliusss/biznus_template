@@ -23,17 +23,32 @@ main .container .no-margin {
 }
 
 .hero {
+  height: 550px;
   background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url(../../img/hero\ section\ img.jpg);
   background-size: cover;
-  height: 550px;
   background-position: 0px 0px, 50% 50%;
 }
 
 .hero-tittle-btn {
   display: flex;
+  flex-direction: column;
+  height: 500px;
+  padding: 130px 0;
+  justify-content: center;
   align-items: center;
+  text-align: left;
   text-wrap: wrap;
-  row-gap: 15px;
+  color: white;
+}
 
-  justify-items: center;
+.text-bigger {
+  width: 45%;
+  padding-bottom: 20px;
+  font-size: 60px;
+}
+
+.p-text {
+  width: 45%;
+  padding-bottom: 20px;
+  font-size: 18px;
 }

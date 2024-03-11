@@ -1,13 +1,26 @@
-.btn {
-}
-
-.btn:hover {
-}
-
+/* nav button  */
 .btn-nav {
+  padding: 12px 20px;
   border: 1px solid #000;
   border-radius: 50px;
-  padding: 12px 20px;
   background-color: var(--color-red);
   color: #fff;
+}
+
+/* hero button */
+
+.btn-hero {
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: 700;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.btn-hero:hover {
+  background-color: #fff;
+  color: var(--color-black);
+  cursor: pointer;
 }
