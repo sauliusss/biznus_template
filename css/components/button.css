@@ -6,9 +6,7 @@
   background-color: var(--color-red);
   color: #fff;
 }
-
 /* hero button */
-
 .btn-hero {
   padding: 10px 25px;
   font-size: 15px;
@@ -18,7 +16,6 @@
   background-color: transparent;
   color: #fff;
 }
-
 .btn-hero:hover {
   background-color: #fff;
   color: var(--color-black);

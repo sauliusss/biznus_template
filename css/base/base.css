@@ -21,7 +21,7 @@ main .no-padding {
 main .container .no-margin {
   margin: 0;
 }
-
+/* hero section */
 .hero {
   height: 550px;
   background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url(../../img/hero\ section\ img.jpg);
@@ -52,3 +52,5 @@ main .container .no-margin {
   padding-bottom: 20px;
   font-size: 18px;
 }
+
+/* support section */
