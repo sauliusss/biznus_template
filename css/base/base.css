@@ -54,3 +54,68 @@ main .container .no-margin {
 }
 
 /* support section */
+
+.support-tittle-p1 .text-bigger {
+  width: 100%;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.support-tittle-p2 .p-text {
+  width: 100%;
+}
+
+.card {
+}
+
+.card-bg {
+  background-color: var(--color-black);
+  width: 80%;
+  height: 23em;
+  position: relative;
+}
+
+.card-number .text-bigger {
+  color: #fff;
+}
+.card-title {
+  padding-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.card-title .text-bigger {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.card img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.circle {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: -25%;
+  bottom: -25%;
+}
+
+.triangle {
+  position: absolute;
+  top: 18em;
+  left: 16.5em;
+}
+
+.square {
+  position: absolute;
+  top: 18em;
+  left: 17em;
+}
