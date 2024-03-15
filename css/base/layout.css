@@ -145,6 +145,21 @@
     --half-gap: 15px;
   }
 
+  .circle {
+    top: 18em;
+    left: 27em;
+  }
+
+  .triangle {
+    top: 18em;
+    left: 25em;
+  }
+
+  .square {
+    top: 18em;
+    left: 27em;
+  }
+
   .hidden-sm {
     display: none !important;
   }
@@ -237,6 +252,21 @@
   :root {
     --width: 100%;
     --half-gap: 20px;
+  }
+
+  .circle {
+    top: 18em;
+    left: 52em;
+  }
+
+  .triangle {
+    top: 18em;
+    left: 52em;
+  }
+
+  .square {
+    top: 18em;
+    left: 52em;
   }
 
   .hidden-md {
@@ -333,6 +363,21 @@
     --half-gap: 25px;
   }
 
+  .circle {
+    top: 18em;
+    left: 15em;
+  }
+
+  .triangle {
+    top: 18em;
+    left: 12em;
+  }
+
+  .square {
+    top: 18em;
+    left: 15em;
+  }
+
   .hidden-lg {
     display: none !important;
   }
@@ -425,6 +470,21 @@
   :root {
     --width: 100%;
     --half-gap: 30px;
+  }
+
+  .circle {
+    top: 18em;
+    left: 18em;
+  }
+
+  .triangle {
+    top: 18em;
+    left: 18em;
+  }
+
+  .square {
+    top: 18em;
+    left: 18em;
   }
 
   .hidden-xl {
@@ -522,6 +582,21 @@
 
   .row .hero-tittle-btn .text-bigger {
     width: 45%;
+  }
+
+  .circle {
+    top: 18em;
+    left: 25em;
+  }
+
+  .triangle {
+    top: 18em;
+    left: 25em;
+  }
+
+  .square {
+    top: 18em;
+    left: 25em;
   }
 
   .hidden-xxl {

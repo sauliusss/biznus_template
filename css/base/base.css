@@ -70,7 +70,7 @@ main .container .no-margin {
 
 .card-bg {
   background-color: var(--color-black);
-  width: 80%;
+  overflow: hidden;
   height: 23em;
   position: relative;
 }
@@ -84,28 +84,23 @@ main .container .no-margin {
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
-
   align-items: center;
 }
 
 .card-title .text-bigger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 40px;
   font-weight: 600;
   color: #fff;
 }
 
-.card img {
-  max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
-}
-
 .circle {
   position: absolute;
-  left: auto;
-  top: auto;
-  right: -25%;
-  bottom: -25%;
+  top: 18em;
+  left: 18em;
+  overflow: hidden;
 }
 
 .triangle {
@@ -118,4 +113,9 @@ main .container .no-margin {
   position: absolute;
   top: 18em;
   left: 17em;
+}
+
+.card .p-text {
+  margin-top: 60px;
+  width: 100%;
 }
